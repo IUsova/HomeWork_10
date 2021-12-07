@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login form</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="wrapper">
+    <main class="main">
+        <section class="authorization">
+            <form class="form" id="form">
+                <div class="form__wrapper">
+                    <h1 class="form__title">Регистрация</h1>
+                    <div class="form__email" class="required_red">
+                        <label for="email-input" id="emailLabel" >
+                            Email
+                        </label>
+                        <input type="email" id="email-input" placeholder="Введите email">
+                    </div>
+                    <div class="form__password">
+                        <label for="password-input" id="passwordLabel">
+                            Пароль
+                        </label>
+                        <input type="password" id="password-input" placeholder="Введите пароль">
+                    </div>
+                    <div class="form__checkbox">
+                        <input type="checkbox" id="checkbox-input">
+                        <div class="form__checkbox-mark"></div>
+                        <label for="checkbox-input">
+                            <span>Я согласен c</span><a href="https://www.google.ru/" target="_blank"
+                                                        rel="nofollow noopener noreferrer"> Правилами пользования приложением</a>
+                        </label>
+                    </div>
+                    <div class="form__button">
+                        <button type="submit" class="form__button-submit" id="btn">Регистрация</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
